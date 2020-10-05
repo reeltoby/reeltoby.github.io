@@ -1,0 +1,102 @@
+/*Aligns the webpages to the center and 
+also provides the stated background color */
+body{
+           
+		 
+            max-width: 1040px;
+            width: 98%;
+            margin: 0px auto;
+            text-align: left;
+			background:#eeeeee;
+			text-align:center; 
+        }
+/*This provides the border */
+.center {
+  margin: auto;
+  width: 100%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+.vl {
+  border-right: 6px solid green;
+  height: 50px;
+}
+.main {
+
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .center, .main  {
+    width: 100%;
+  }
+}
+h1 {
+
+  text-align: center;
+  color: red;
+  
+}	
+	h2 {
+
+  text-align: center;
+  color: red;
+  
+}
+	h3 {
+
+  text-align: center;
+  color: green;
+  
+}
+	/*Validates all paragraphs in the site */	
+p {
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.active {
+  background-color: #4CAF50;
+}
+hr {
+	height:4px;
+	border-width:0;
+	color:gray;
+	
+	
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
